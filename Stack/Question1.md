@@ -13,5 +13,5 @@ An input string is valid if:
 - made a `char` array *'stack'* of length `l`, where `l` is the length of string `s`.
 - integer `top` acts as a top of the stack, initially set to -1. i.e., the stack is empty.
 
-**Note:** We can also make `int` array instead of `char` array, the automatic type conversion will be done.
+**Note:** We can also make `int` array instead of `char` array, in case of `int` array, the ascii values will be sorted, and during comparison automatic casting will be done.
 
